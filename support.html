@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Dice &amp; Dots</title>
+  <meta name="description" content="Need help with Dice & Dots? Report a bug, suggest a feature, or ask a question — we'll get back to you." />
+  <meta name="theme-color" content="#f5a623" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=20260609" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=20260609" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=20260609" />
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=20260609" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon.png?v=20260609" />
+  <link rel="shortcut icon" href="favicon.ico?v=20260609" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=20260609" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260612-multilang" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <img src="assets/icon.png" alt="Dice & Dots icon" />
+        <span>Dice &amp; Dots</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html#how" data-i18n="nav.how">How it works</a>
+        <a href="index.html#build" data-i18n="nav.build">What you get</a>
+        <a href="index.html#features" data-i18n="nav.features">Features</a>
+        <a href="index.html#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="index.html#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="support.html" data-i18n="nav.support">Support</a>
+      </nav>
+
+      <div class="nav-actions">
+        <select class="lang-select" aria-label="Language / Język"></select>
+        <button class="nav-toggle" aria-label="Menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="legal">
+    <div class="wrap legal-wrap">
+      <a class="back-link" href="index.html">← <span data-i18n="legal.back">Back to home</span></a>
+
+      <div class="section-head support-wrap" style="text-align:left;margin:0 0 36px;">
+        <span class="kicker" data-i18n="support.kicker">Support</span>
+        <h1 style="font-size:clamp(1.9rem,4vw,2.6rem);margin:10px 0 12px;" data-i18n="support.title">We're here to help</h1>
+        <p style="font-size:1.1rem;color:var(--ink-soft);margin:0;" data-i18n="support.subtitle">Got a bug, an idea, or just a question? Fill out the form and we'll get back to you.</p>
+      </div>
+
+      <div class="support-wrap">
+        <div class="support-card">
+
+          <!-- ---- type tiles ---- -->
+          <div>
+            <p style="font-weight:700;font-size:.95rem;margin:0 0 12px;" data-i18n="support.form.type.label">Type of request</p>
+            <div class="support-types" role="group">
+              <input class="type-option" type="radio" name="type" id="t-bug"     value="Bug report"           />
+              <label for="t-bug"     data-i18n="support.form.type.bug">🐛  Bug report</label>
+
+              <input class="type-option" type="radio" name="type" id="t-feature" value="Feature request / Idea" />
+              <label for="t-feature" data-i18n="support.form.type.feature">💡  Feature request / Idea</label>
+
+              <input class="type-option" type="radio" name="type" id="t-question" value="Question"             />
+              <label for="t-question" data-i18n="support.form.type.question">❓  Question</label>
+
+              <input class="type-option" type="radio" name="type" id="t-other"   value="Other"                />
+              <label for="t-other"   data-i18n="support.form.type.other">✉️  Other</label>
+            </div>
+          </div>
+
+          <!-- ---- form ---- -->
+          <form id="support-form"
+                action="https://formsubmit.co/szaroczarnytrzmiel@gmail.com"
+                method="POST"
+                novalidate>
+
+            <!-- FormSubmit config -->
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_subject" id="hidden-subject" value="Dice & Dots — new support request" />
+
+            <!-- hidden: passes the selected type tile value -->
+            <input type="hidden" name="request_type" id="hidden-type" value="" />
+
+            <div class="form-group">
+              <label for="f-name">
+                <span data-i18n="support.form.name.label">Your name</span>
+                <span class="form-optional" data-i18n="support.form.name.placeholder">(optional)</span>
+              </label>
+              <input
+                class="form-control"
+                type="text"
+                id="f-name"
+                name="name"
+                autocomplete="name"
+                data-i18n-attr="placeholder:support.form.name.placeholder"
+                placeholder="Optional"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="f-email">
+                <span data-i18n="support.form.email.label">Your e-mail</span>
+                <span style="color:#e85c50;margin-left:2px" aria-hidden="true">*</span>
+              </label>
+              <input
+                class="form-control"
+                type="email"
+                id="f-email"
+                name="email"
+                required
+                autocomplete="email"
+                data-i18n-attr="placeholder:support.form.email.placeholder"
+                placeholder="So we can reply to you"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="f-message">
+                <span data-i18n="support.form.message.label">Message</span>
+                <span style="color:#e85c50;margin-left:2px" aria-hidden="true">*</span>
+              </label>
+              <textarea
+                class="form-control"
+                id="f-message"
+                name="message"
+                required
+                rows="5"
+                data-i18n-attr="placeholder:support.form.message.placeholder"
+                placeholder="Describe the issue or share your idea…"
+              ></textarea>
+            </div>
+
+            <div class="form-submit">
+              <button class="btn btn-primary" type="submit" id="submit-btn">
+                <span id="submit-label" data-i18n="support.form.submit">Send message</span>
+              </button>
+            </div>
+          </form>
+
+          <!-- result banner -->
+          <div class="form-result" id="form-result" role="alert">
+            <strong id="result-title"></strong>
+            <span id="result-text"></span>
+          </div>
+
+        </div><!-- /.support-card -->
+      </div><!-- /.support-wrap -->
+    </div><!-- /.legal-wrap -->
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/icon.png" alt="Dice & Dots icon" />
+            <strong>Dice &amp; Dots</strong>
+          </div>
+          <p class="muted" data-i18n="footer.tagline">Turn your photos into printable dice mosaics.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.product">Product</h4>
+          <a href="index.html#how" data-i18n="nav.how">How it works</a>
+          <a href="index.html#features" data-i18n="nav.features">Features</a>
+          <a href="index.html#pricing" data-i18n="nav.pricing">Pricing</a>
+          <a href="index.html#faq" data-i18n="nav.faq">FAQ</a>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Legal</h4>
+          <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="terms.html" data-i18n="footer.terms">Terms of Use</a>
+          <a href="support.html" data-i18n="nav.support">Support</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Dice &amp; Dots · <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <span data-i18n="footer.madeby">By Hubert Przychodniak</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js?v=20260612-multilang"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script>
+    (function () {
+      const form      = document.getElementById("support-form");
+      const submitBtn = document.getElementById("submit-btn");
+      const submitLbl = document.getElementById("submit-label");
+      const resultBox = document.getElementById("form-result");
+      const resTitle  = document.getElementById("result-title");
+      const resText   = document.getElementById("result-text");
+      const hiddenType = document.getElementById("hidden-type");
+      const hiddenSubject = document.getElementById("hidden-subject");
+
+      document.querySelectorAll(".type-option").forEach(function (radio) {
+        radio.addEventListener("change", function () {
+          hiddenType.value = radio.value;
+          hiddenSubject.value = "Dice & Dots support: " + radio.value;
+        });
+      });
+
+      form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const email = form.querySelector("#f-email").value.trim();
+        const msg   = form.querySelector("#f-message").value.trim();
+        if (!email || !msg) return;
+
+        const lang = document.documentElement.lang || "en";
+        const dict = (typeof I18N !== "undefined" && I18N[lang]) ? I18N[lang] : {};
+
+        submitLbl.textContent = dict["support.form.sending"] || "Sending…";
+        submitBtn.disabled = true;
+        resultBox.className = "form-result";
+
+        const data = new FormData(form);
+
+        try {
+          const res = await fetch(form.action, {
+            method: "POST",
+            body: data,
+            headers: { Accept: "application/json" }
+          });
+
+          if (res.ok) {
+            resultBox.className = "form-result success";
+            resTitle.textContent = dict["support.form.success.title"] || "Message sent!";
+            resText.textContent  = dict["support.form.success.text"]  || "Thank you — we'll get back to you as soon as possible.";
+            form.reset();
+            hiddenType.value = "";
+          } else {
+            throw new Error("non-ok");
+          }
+        } catch (_) {
+          resultBox.className = "form-result error";
+          resTitle.textContent = "";
+          resText.textContent  = dict["support.form.error"] || "Something went wrong. Please try again or e-mail us directly at szaroczarnytrzmiel@gmail.com";
+        } finally {
+          submitLbl.textContent = dict["support.form.submit"] || "Send message";
+          submitBtn.disabled = false;
+          resultBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

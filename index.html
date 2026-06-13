@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dice &amp; Dots — Turn your photos into printable dice mosaics</title>
+  <meta name="description" content="Dice &amp; Dots is an app that converts any photo into a printable dice mosaic. Choose a photo, set dice size, export a 1:1 scale PDF instruction, and build real dice art — no internet required." />
+  <meta name="theme-color" content="#f5a623" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=20260609" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=20260609" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=20260609" />
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png?v=20260609" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon.png?v=20260609" />
+  <link rel="shortcut icon" href="favicon.ico?v=20260609" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png?v=20260609" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dice & Dots — Printable dice mosaics from your photos" />
+  <meta property="og:description" content="Turn any photo into a dice mosaic. Print the plan, place real dice, build your art." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://diceanddots.com/" />
+  <meta property="og:image" content="https://diceanddots.com/assets/icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260612-multilang" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top">
+        <img src="assets/icon.png" alt="Dice & Dots icon" />
+        <span>Dice &amp; Dots</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#how" data-i18n="nav.how">How it works</a>
+        <a href="#build" data-i18n="nav.build">What you get</a>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="support.html" data-i18n="nav.support">Support</a>
+      </nav>
+
+      <div class="nav-actions">
+        <select class="lang-select" aria-label="Language / Język"></select>
+        <!-- App Store link — coming soon -->
+        <button class="nav-toggle" aria-label="Menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text reveal">
+          <span class="eyebrow" data-i18n="hero.eyebrow">Photo → printable dice mosaic</span>
+          <h1>
+            <span data-i18n="hero.title.1">Turn your photos into</span>
+            <span class="accent" data-i18n="hero.title.2">real dice mosaics</span>
+          </h1>
+          <p class="lead" data-i18n="hero.lead">
+            Dice &amp; Dots converts any photo into a print-ready plan made of dice faces. Print the instruction, place real dice on the matching squares, and build your own dice art — at true 1:1 scale.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-ghost" href="#how" data-i18n="hero.cta.secondary">See how it works</a>
+          </div>
+          <p class="hero-note" data-i18n="hero.note">No accounts · No ads · Everything runs on your device</p>
+        </div>
+
+        <div class="hero-visual reveal">
+          <img class="phone back" src="assets/screens/06-main.png" alt="Dice & Dots main screen" loading="eager" />
+          <img class="phone" src="assets/screens/05-result.png" alt="Dice mosaic preview in the app" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <!-- dice strip divider -->
+    <div class="wrap">
+      <div class="dice-strip" aria-hidden="true">
+        <!-- 1 --><span class="die"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></span>
+        <!-- 2 --><span class="die"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></span>
+        <!-- 3 --><span class="die"><i class="on"></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i class="on"></i></span>
+        <!-- 4 --><span class="die"><i class="on"></i><i></i><i class="on"></i><i></i><i></i><i></i><i class="on"></i><i></i><i class="on"></i></span>
+        <!-- 5 --><span class="die"><i class="on"></i><i></i><i class="on"></i><i></i><i class="on"></i><i></i><i class="on"></i><i></i><i class="on"></i></span>
+        <!-- 6 --><span class="die"><i class="on"></i><i></i><i class="on"></i><i class="on"></i><i></i><i class="on"></i><i class="on"></i><i></i><i class="on"></i></span>
+      </div>
+    </div>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section id="how" class="alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="how.kicker">Simple workflow</span>
+          <h2 data-i18n="how.title">From photo to mosaic in four steps</h2>
+          <p data-i18n="how.subtitle">Everything happens right on your phone — no internet, no uploads.</p>
+        </div>
+        <div class="steps">
+          <div class="step reveal">
+            <div class="num">1</div>
+            <h3 data-i18n="how.s1.t">Pick a photo</h3>
+            <p data-i18n="how.s1.d">Choose an image from your gallery, take a new photo, or import a file. Crop and rotate to frame it perfectly.</p>
+          </div>
+          <div class="step reveal">
+            <div class="num">2</div>
+            <h3 data-i18n="how.s2.t">Set the size</h3>
+            <p data-i18n="how.s2.d">Choose dice size (8 mm mini to jumbo) and mosaic dimensions. The app shows the real-world size and total dice count.</p>
+          </div>
+          <div class="step reveal">
+            <div class="num">3</div>
+            <h3 data-i18n="how.s3.t">Tune the look</h3>
+            <p data-i18n="how.s3.d">Pick dice color, adjust contrast and tone, enable blank dice for bright or dark areas, and preview live.</p>
+          </div>
+          <div class="step reveal">
+            <div class="num">4</div>
+            <h3 data-i18n="how.s4.t">Print &amp; build</h3>
+            <p data-i18n="how.s4.d">Export a print-ready PDF at 1:1 scale, print it, and place real dice on each square following the grid.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHAT YOU GET ============ -->
+    <section id="build">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="build.kicker">What you actually get</span>
+          <h2 data-i18n="build.title">A printable instruction you simply follow</h2>
+          <p data-i18n="build.subtitle">The app gives you a clear, numbered plan — so anyone can build the mosaic, no guessing.</p>
+        </div>
+
+        <div class="getit-grid reveal">
+          <div class="getit-media">
+            <img src="assets/instructions/printed-sheets.jpg" alt="Printed Dice & Dots instruction sheets with X and Y grid coordinates" loading="lazy" />
+          </div>
+          <div class="getit-text">
+            <h3 data-i18n="build.b1.t">A grid where every square = one die</h3>
+            <p data-i18n="build.b1.d">Each cell of the printed sheet shows how many pips a die should show (1–6). You just place a real die showing the same number on that square.</p>
+            <ul class="checklist">
+              <li data-i18n="build.b1.li1">Dots printed in every cell tell you the exact die face</li>
+              <li data-i18n="build.b1.li2">X / Y coordinates around the edges keep you from losing your place</li>
+              <li data-i18n="build.b1.li3">Large mosaics are split across multiple A-format sheets</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="height:42px"></div>
+
+        <div class="getit-grid reverse reveal">
+          <div class="getit-media">
+            <img src="assets/instructions/dice-on-grid.jpg" alt="Real dice placed on the printed grid following the printed pips" loading="lazy" />
+          </div>
+          <div class="getit-text">
+            <h3 data-i18n="build.b2.t">Printed at true 1:1 scale</h3>
+            <p data-i18n="build.b2.d">The PDF matches the real size of your dice, so the printed grid lines up perfectly with the physical pieces. Tile the pages together and start placing dice.</p>
+            <ul class="checklist">
+              <li data-i18n="build.b2.li1">Snap dice into the grid row by row</li>
+              <li data-i18n="build.b2.li2">Works with standard pipped dice you can buy in bulk</li>
+              <li data-i18n="build.b2.li3">Glue the finished mosaic to a board to hang it on your wall</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INSPIRATION CAROUSEL ============ -->
+    <section id="inspiration">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="inspo.kicker">Inspiration</span>
+          <h2 data-i18n="inspo.title">Your photo, turned into dice art</h2>
+          <p data-i18n="inspo.subtitle">See what's possible — every image below started as an ordinary photo.</p>
+        </div>
+        <div class="inspo-carousel reveal" role="region" aria-label="Inspiration gallery">
+          <div class="inspo-track">
+            <div class="inspo-slide">
+              <picture>
+                <source srcset="WebP/MahatGandhi.webp" type="image/webp" />
+                <img src="WebP/MahatGandhi.jpg" alt="Mahatma Gandhi dice mosaic" width="3628" height="4536" loading="lazy" fetchpriority="high" decoding="async" />
+              </picture>
+            </div>
+            <div class="inspo-slide">
+              <picture>
+                <source srcset="WebP/cat.webp" type="image/webp" />
+                <img src="WebP/cat.jpg" alt="Cat dice mosaic" width="2312" height="2312" loading="lazy" decoding="async" />
+              </picture>
+            </div>
+            <div class="inspo-slide">
+              <picture>
+                <source srcset="WebP/dog.webp" type="image/webp" />
+                <img src="WebP/dog.jpg" alt="Dog dice mosaic" width="2084" height="2608" loading="lazy" decoding="async" />
+              </picture>
+            </div>
+            <div class="inspo-slide">
+              <picture>
+                <source srcset="WebP/grzegorz.webp" type="image/webp" />
+                <img src="WebP/grzegorz.jpg" alt="Person dice mosaic" width="3808" height="4760" loading="lazy" decoding="async" />
+              </picture>
+            </div>
+            <div class="inspo-slide">
+              <picture>
+                <source srcset="WebP/joerogan.webp" type="image/webp" />
+                <img src="WebP/joerogan.jpg" alt="Joe Rogan dice mosaic" width="2356" height="2948" loading="lazy" decoding="async" />
+              </picture>
+            </div>
+          </div>
+          <button class="inspo-btn inspo-prev" aria-label="Previous">&#8249;</button>
+          <button class="inspo-btn inspo-next" aria-label="Next">&#8250;</button>
+          <div class="inspo-dots" role="tablist" aria-label="Slide controls"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section id="features" class="alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="feat.kicker">Features</span>
+          <h2 data-i18n="feat.title">Everything you need to build dice art</h2>
+          <p data-i18n="feat.subtitle">Powerful options, all on-device and private.</p>
+        </div>
+        <div class="features">
+          <div class="feature reveal"><div class="ico">🖼️</div><h3 data-i18n="feat.1.t">Multiple image sources</h3><p data-i18n="feat.1.d">Use your photo gallery, camera, or imported files as the source image.</p></div>
+          <div class="feature reveal"><div class="ico">⚡</div><h3 data-i18n="feat.2.t">Live mosaic preview</h3><p data-i18n="feat.2.d">Real-time rendering shows exactly how your mosaic will look before you print.</p></div>
+          <div class="feature reveal"><div class="ico">🎲</div><h3 data-i18n="feat.3.t">Adjustable dice size</h3><p data-i18n="feat.3.d">From 8 mm mini to jumbo dice — pick the scale that fits your project.</p></div>
+          <div class="feature reveal"><div class="ico">🎨</div><h3 data-i18n="feat.4.t">Many dice colors</h3><p data-i18n="feat.4.d">Black, white, red and more color schemes to match the look you want.</p></div>
+          <div class="feature reveal"><div class="ico">📄</div><h3 data-i18n="feat.5.t">Paper format presets</h3><p data-i18n="feat.5.d">A4, A3, A2, A1, A0, B-series and custom mosaic dimensions.</p></div>
+          <div class="feature reveal"><div class="ico">🎚️</div><h3 data-i18n="feat.6.t">Contrast &amp; tone control</h3><p data-i18n="feat.6.d">Fine-tune the image and add blank dice for very bright or dark areas.</p></div>
+          <div class="feature reveal"><div class="ico">🖨️</div><h3 data-i18n="feat.7.t">Print-ready PDF</h3><p data-i18n="feat.7.d">Generates a PDF with grid coordinates and axis labels, ready to print.</p></div>
+          <div class="feature reveal"><div class="ico">🌍</div><h3 data-i18n="feat.8.t">10 languages</h3><p data-i18n="feat.8.d">PL, EN, ES, FR, DE, IT, PT, RU, NL and SV built in.</p></div>
+          <div class="feature reveal"><div class="ico">🔒</div><h3 data-i18n="feat.9.t">100% private</h3><p data-i18n="feat.9.d">No accounts, no backend, no tracking. Your photos never leave your device.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section id="gallery">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="gallery.kicker">Inside the app</span>
+          <h2 data-i18n="gallery.title">Designed to be effortless</h2>
+        </div>
+        <div class="gallery reveal">
+          <img src="assets/screens/01-crop.png" alt="Crop and frame your photo" loading="lazy" />
+          <img src="assets/screens/02-mosaic-size.png" alt="Choose mosaic size" loading="lazy" />
+          <img src="assets/screens/03-dice-settings.png" alt="Pick dice color and size" loading="lazy" />
+          <img src="assets/screens/04-image-settings.png" alt="Adjust contrast and tone" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section id="pricing" class="alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="price.kicker">Pricing</span>
+          <h2 data-i18n="price.title">Free to create — pay only to export</h2>
+          <p data-i18n="price.subtitle">Build and preview as many mosaics as you like for free. No ads, no subscriptions.</p>
+        </div>
+        <div class="pricing">
+          <div class="price-card reveal">
+            <h3 data-i18n="price.single.t">Single export</h3>
+            <div class="price">€&middot;&middot; <small data-i18n="price.single.p">per PDF</small></div>
+            <ul>
+              <li data-i18n="price.single.li1">Create and preview for free</li>
+              <li data-i18n="price.single.li2">Export one print-ready PDF</li>
+              <li data-i18n="price.single.li3">Pay only when you're ready</li>
+            </ul>
+          </div>
+          <div class="price-card featured reveal">
+            <span class="price-tag" data-i18n="price.life.tag">Best value</span>
+            <h3 data-i18n="price.life.t">Lifetime unlock</h3>
+            <div class="price">€&middot;&middot; <small data-i18n="price.life.p">one-time</small></div>
+            <ul>
+              <li data-i18n="price.life.li1">Unlimited PDF exports forever</li>
+              <li data-i18n="price.life.li2">All dice colors and sizes</li>
+              <li data-i18n="price.life.li3">Pay once — no subscription</li>
+            </ul>
+          </div>
+        </div>
+        <p class="section-head muted" style="margin-top:26px;font-size:.92rem" data-i18n="price.note">Prices are shown in the App Store in your local currency.</p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section id="faq">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="kicker" data-i18n="faq.kicker">FAQ</span>
+          <h2 data-i18n="faq.title">Frequently asked questions</h2>
+        </div>
+        <div class="faq reveal">
+          <details><summary data-i18n="faq.q1">How does Dice & Dots work?</summary><p data-i18n="faq.a1">You pick a photo, choose your dice size and mosaic dimensions, and the app turns the image into a grid of dice faces. You then export a print-ready PDF and build the mosaic with real dice.</p></details>
+          <details><summary data-i18n="faq.q2">What do I print exactly?</summary><p data-i18n="faq.a2">You print an instruction sheet: a grid where every square shows how many pips a die should display, with X/Y coordinates so you always know where you are. Place a matching die on each square.</p></details>
+          <details><summary data-i18n="faq.q3">What dice do I need?</summary><p data-i18n="faq.a3">Standard pipped dice (the kind with dots, 1–6). You can choose the size in the app — from 8 mm mini dice up to larger ones — and buy them in bulk.</p></details>
+          <details><summary data-i18n="faq.q4">Is it really printed at 1:1 scale?</summary><p data-i18n="faq.a4">Yes. The PDF is generated at real-world scale so the printed grid matches the physical size of your dice. Just make sure your printer is set to print at 100% (no scaling).</p></details>
+          <details><summary data-i18n="faq.q5">Do you collect my photos or data?</summary><p data-i18n="faq.a5">No. All image processing happens locally on your device. There are no accounts, no backend servers, no analytics and no tracking.</p></details>
+          <details><summary data-i18n="faq.q6">How much does it cost?</summary><p data-i18n="faq.a6">Creating and previewing mosaics is free. You can pay per single PDF export, or unlock unlimited exports forever with a one-time purchase. No ads, no subscriptions.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BAND ============ -->
+    <section id="download">
+      <div class="wrap">
+        <div class="cta-band reveal">
+          <h2 data-i18n="cta.title">Ready to build your first dice mosaic?</h2>
+          <p data-i18n="cta.text">Download Dice & Dots and turn a favourite photo into a piece of art made of dice.</p>
+          <!-- App Store button — coming soon -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/icon.png" alt="Dice & Dots icon" />
+            <strong>Dice &amp; Dots</strong>
+          </div>
+          <p class="muted" data-i18n="footer.tagline">Turn your photos into printable dice mosaics.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.product">Product</h4>
+          <a href="#how" data-i18n="nav.how">How it works</a>
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+          <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        </div>
+        <div>
+          <h4 data-i18n="footer.legal">Legal</h4>
+          <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="terms.html" data-i18n="footer.terms">Terms of Use</a>
+          <a href="support.html" data-i18n="nav.support">Support</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Dice &amp; Dots · <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <span data-i18n="footer.madeby">By Hubert Przychodniak</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/i18n.js?v=20260612-multilang"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
