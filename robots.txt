@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://diceanddots.com/sitemap.xml
+Sitemap: https://kostakpixel.com/sitemap.xml
