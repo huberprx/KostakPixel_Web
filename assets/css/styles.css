@@ -106,7 +106,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 1.15rem;
 }
 .brand span { white-space: nowrap; }
-.brand img { width: 38px; height: 38px; border-radius: 10px; box-shadow: var(--shadow-sm); }
+.brand img { width: 48px; height: 48px; border-radius: 10px; box-shadow: var(--shadow-sm); }
 
 .nav-links {
   display: flex;
@@ -572,7 +572,7 @@ section { padding: 64px 0; }
 .footer-grid a { display: block; color: var(--ink-soft); padding: 5px 0; }
 .footer-grid a:hover { color: var(--ink); }
 .footer-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
-.footer-brand img { width: 42px; height: 42px; border-radius: 11px; }
+.footer-brand img { width: 52px; height: 52px; border-radius: 11px; }
 .footer-bottom {
   margin-top: 36px;
   padding-top: 20px;
@@ -773,7 +773,7 @@ textarea.form-control {
     padding-bottom: 10px;
   }
   .brand { font-size: 1rem; }
-  .brand img { width: 34px; height: 34px; }
+  .brand img { width: 42px; height: 42px; }
   .nav-actions {
     gap: 8px;
     margin-left: auto;
