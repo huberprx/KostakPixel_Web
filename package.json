@@ -1,0 +1,11 @@
+{
+  "name": "kostakpixel-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-i18n.mjs"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

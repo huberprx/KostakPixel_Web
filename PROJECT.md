@@ -108,3 +108,11 @@ Landing page for Dice & Dots app, including legal documents required by Apple Ap
 
 - Apple App Store: `https://apps.apple.com/app/id6777076502` (all store links live in `assets/js/store.js`)
 - Google Play: (TBD)
+
+## Language versions (SEO)
+
+Every language has its own address (`/pl/`, `/de/`, `/ar/` …) with translated title, description and `hreflang` links, generated from the English root pages.
+
+- Texts live in the translation file in `assets/js/`; the English root `index.html` / `support.html` are the templates.
+- After changing texts, HTML or adding a language run once: `npm install`, then every time: `npm run build` — it rewrites all language folders and `sitemap.xml`.
+- Settings (domain, languages, pages): `tools/i18n.config.json`.

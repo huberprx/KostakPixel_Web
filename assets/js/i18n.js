@@ -5,6 +5,10 @@
 
 const I18N = {
   en: {
+    "meta.title": "Kostka Pixel — Turn your photos into printable dice mosaics",
+    "meta.description": "Kostka Pixel is an app that converts any photo into a printable dice mosaic. Choose a photo, set dice size, export a 1:1 scale PDF instruction, and build real dice art — no internet required.",
+    "support.meta.title": "Support — Kostka Pixel",
+    "support.meta.description": "Need help with Kostka Pixel? Report a bug, suggest a feature, or ask a question — we'll get back to you.",
     "nav.how": "How it works",
     "nav.build": "What you get",
     "nav.features": "Features",
@@ -141,6 +145,10 @@ const I18N = {
   },
 
   pl: {
+    "meta.title": "Kostka Pixel — zamień zdjęcia w mozaiki z kostek do gry do druku",
+    "meta.description": "Kostka Pixel to aplikacja, która zamienia dowolne zdjęcie w mozaikę z kostek do gry gotową do druku. Wybierz zdjęcie, ustaw rozmiar kostek, wyeksportuj instrukcję PDF w skali 1:1 i ułóż prawdziwy obraz z kostek — bez internetu.",
+    "support.meta.title": "Wsparcie — Kostka Pixel",
+    "support.meta.description": "Potrzebujesz pomocy z Kostka Pixel? Zgłoś błąd, zaproponuj funkcję lub zadaj pytanie — odpowiemy najszybciej, jak się da.",
     "nav.how": "Jak to działa",
     "nav.build": "Co otrzymujesz",
     "nav.features": "Funkcje",
@@ -277,6 +285,10 @@ const I18N = {
   },
 
   es: {
+    "meta.title": "Kostka Pixel — convierte tus fotos en mosaicos de dados para imprimir",
+    "meta.description": "Kostka Pixel es una app que convierte cualquier foto en un mosaico de dados listo para imprimir. Elige una foto, ajusta el tamaño de los dados, exporta las instrucciones en PDF a escala 1:1 y crea arte real con dados, sin internet.",
+    "support.meta.title": "Soporte — Kostka Pixel",
+    "support.meta.description": "¿Necesitas ayuda con Kostka Pixel? Informa de un error, sugiere una función o haz una pregunta y te responderemos.",
     "nav.how": "Cómo funciona",
     "nav.build": "Qué obtienes",
     "nav.features": "Funciones",
@@ -401,6 +413,10 @@ const I18N = {
   },
 
   fr: {
+    "meta.title": "Kostka Pixel — transformez vos photos en mosaïques de dés à imprimer",
+    "meta.description": "Kostka Pixel est une app qui transforme n'importe quelle photo en mosaïque de dés prête à imprimer. Choisissez une photo, réglez la taille des dés, exportez les instructions PDF à l'échelle 1:1 et réalisez une vraie œuvre en dés, sans internet.",
+    "support.meta.title": "Assistance — Kostka Pixel",
+    "support.meta.description": "Besoin d'aide avec Kostka Pixel ? Signalez un bug, proposez une fonctionnalité ou posez une question, nous vous répondrons.",
     "nav.how": "Comment ça marche",
     "nav.build": "Ce que vous obtenez",
     "nav.features": "Fonctionnalités",
@@ -525,6 +541,10 @@ const I18N = {
   },
 
   de: {
+    "meta.title": "Kostka Pixel — verwandle deine Fotos in druckbare Würfelmosaike",
+    "meta.description": "Kostka Pixel ist eine App, die jedes Foto in ein druckfertiges Würfelmosaik verwandelt. Foto wählen, Würfelgröße festlegen, PDF-Anleitung im Maßstab 1:1 exportieren und echte Würfelkunst bauen – ganz ohne Internet.",
+    "support.meta.title": "Support — Kostka Pixel",
+    "support.meta.description": "Brauchst du Hilfe mit Kostka Pixel? Melde einen Fehler, schlage eine Funktion vor oder stell eine Frage – wir melden uns.",
     "nav.how": "So funktioniert's",
     "nav.build": "Was du bekommst",
     "nav.features": "Funktionen",
@@ -649,6 +669,10 @@ const I18N = {
   },
 
   it: {
+    "meta.title": "Kostka Pixel — trasforma le tue foto in mosaici di dadi da stampare",
+    "meta.description": "Kostka Pixel è un'app che trasforma qualsiasi foto in un mosaico di dadi pronto da stampare. Scegli una foto, imposta la dimensione dei dadi, esporta le istruzioni PDF in scala 1:1 e crea vera arte con i dadi, senza internet.",
+    "support.meta.title": "Assistenza — Kostka Pixel",
+    "support.meta.description": "Ti serve aiuto con Kostka Pixel? Segnala un bug, proponi una funzione o fai una domanda: ti risponderemo.",
     "nav.how": "Come funziona",
     "nav.build": "Cosa ottieni",
     "nav.features": "Funzioni",
@@ -773,6 +797,10 @@ const I18N = {
   },
 
   pt: {
+    "meta.title": "Kostka Pixel — transforme suas fotos em mosaicos de dados para imprimir",
+    "meta.description": "Kostka Pixel é um app que transforma qualquer foto em um mosaico de dados pronto para imprimir. Escolha uma foto, defina o tamanho dos dados, exporte as instruções em PDF na escala 1:1 e monte arte real com dados, sem internet.",
+    "support.meta.title": "Suporte — Kostka Pixel",
+    "support.meta.description": "Precisa de ajuda com o Kostka Pixel? Relate um erro, sugira um recurso ou faça uma pergunta e responderemos.",
     "nav.how": "Como funciona",
     "nav.build": "O que você recebe",
     "nav.features": "Recursos",
@@ -897,6 +925,10 @@ const I18N = {
   },
 
   ru: {
+    "meta.title": "Kostka Pixel — превратите фото в мозаику из игральных кубиков",
+    "meta.description": "Kostka Pixel — приложение, которое превращает любое фото в готовую к печати мозаику из игральных кубиков. Выберите фото, задайте размер кубиков, экспортируйте PDF-инструкцию в масштабе 1:1 и соберите настоящую картину — без интернета.",
+    "support.meta.title": "Поддержка — Kostka Pixel",
+    "support.meta.description": "Нужна помощь с Kostka Pixel? Сообщите об ошибке, предложите функцию или задайте вопрос — мы ответим.",
     "nav.how": "Как это работает",
     "nav.build": "Что вы получаете",
     "nav.features": "Возможности",
@@ -1021,6 +1053,10 @@ const I18N = {
   },
 
   nl: {
+    "meta.title": "Kostka Pixel — maak van je foto's printbare dobbelsteenmozaïeken",
+    "meta.description": "Kostka Pixel is een app die van elke foto een printklaar dobbelsteenmozaïek maakt. Kies een foto, stel de dobbelsteengrootte in, exporteer een pdf-instructie op schaal 1:1 en bouw echte dobbelsteenkunst – zonder internet.",
+    "support.meta.title": "Support — Kostka Pixel",
+    "support.meta.description": "Hulp nodig met Kostka Pixel? Meld een bug, stel een functie voor of stel een vraag – we reageren zo snel mogelijk.",
     "nav.how": "Hoe het werkt",
     "nav.build": "Wat je krijgt",
     "nav.features": "Functies",
@@ -1145,6 +1181,10 @@ const I18N = {
   },
 
   sv: {
+    "meta.title": "Kostka Pixel — gör om dina foton till utskrivbara tärningsmosaiker",
+    "meta.description": "Kostka Pixel är en app som gör om vilket foto som helst till en utskriftsklar tärningsmosaik. Välj ett foto, ställ in tärningsstorleken, exportera en PDF-instruktion i skala 1:1 och bygg riktig tärningskonst – utan internet.",
+    "support.meta.title": "Support — Kostka Pixel",
+    "support.meta.description": "Behöver du hjälp med Kostka Pixel? Rapportera en bugg, föreslå en funktion eller ställ en fråga – vi svarar.",
     "nav.how": "Så fungerar det",
     "nav.build": "Vad du får",
     "nav.features": "Funktioner",
@@ -1269,6 +1309,10 @@ const I18N = {
   },
 
   zh: {
+    "meta.title": "Kostka Pixel — 把照片变成可打印的骰子马赛克",
+    "meta.description": "Kostka Pixel 能把任何照片变成可直接打印的骰子马赛克。选择照片，设置骰子尺寸，导出 1:1 比例的 PDF 说明，用真正的骰子拼出作品——无需联网。",
+    "support.meta.title": "支持 — Kostka Pixel",
+    "support.meta.description": "使用 Kostka Pixel 需要帮助？报告错误、提出功能建议或提问，我们会尽快回复。",
     "nav.how": "工作原理",
     "nav.build": "你将获得",
     "nav.features": "功能",
@@ -1393,6 +1437,10 @@ const I18N = {
   },
 
   hi: {
+    "meta.title": "Kostka Pixel — अपनी फ़ोटो को प्रिंट करने योग्य पासा मोज़ेक में बदलें",
+    "meta.description": "Kostka Pixel एक ऐप है जो किसी भी फ़ोटो को प्रिंट के लिए तैयार पासा मोज़ेक में बदल देता है। फ़ोटो चुनें, पासे का आकार सेट करें, 1:1 पैमाने का PDF निर्देश एक्सपोर्ट करें और असली पासों से कलाकृति बनाएँ — बिना इंटरनेट के।",
+    "support.meta.title": "सहायता — Kostka Pixel",
+    "support.meta.description": "Kostka Pixel में मदद चाहिए? गड़बड़ी की रिपोर्ट करें, सुविधा का सुझाव दें या सवाल पूछें — हम जवाब देंगे।",
     "nav.how": "यह कैसे काम करता है",
     "nav.build": "आपको क्या मिलता है",
     "nav.features": "विशेषताएँ",
@@ -1517,6 +1565,10 @@ const I18N = {
   },
 
   id: {
+    "meta.title": "Kostka Pixel — ubah fotomu menjadi mozaik dadu siap cetak",
+    "meta.description": "Kostka Pixel adalah aplikasi yang mengubah foto apa pun menjadi mozaik dadu siap cetak. Pilih foto, atur ukuran dadu, ekspor petunjuk PDF skala 1:1, dan buat karya seni dadu sungguhan — tanpa internet.",
+    "support.meta.title": "Bantuan — Kostka Pixel",
+    "support.meta.description": "Butuh bantuan dengan Kostka Pixel? Laporkan bug, usulkan fitur, atau ajukan pertanyaan — kami akan membalas.",
     "nav.how": "Cara kerja",
     "nav.build": "Yang kamu dapat",
     "nav.features": "Fitur",
@@ -1641,6 +1693,10 @@ const I18N = {
   },
 
   ja: {
+    "meta.title": "Kostka Pixel — 写真を印刷できるサイコロモザイクに",
+    "meta.description": "Kostka Pixel は、どんな写真でも印刷してすぐ使えるサイコロモザイクに変換するアプリです。写真を選び、サイコロのサイズを設定し、1:1 スケールの PDF 説明書を書き出せば、本物のサイコロでアートが作れます。ネット接続は不要です。",
+    "support.meta.title": "サポート — Kostka Pixel",
+    "support.meta.description": "Kostka Pixel についてお困りですか？不具合の報告、機能のご要望、ご質問をお送りください。お返事します。",
     "nav.how": "使い方",
     "nav.build": "得られるもの",
     "nav.features": "機能",
@@ -1765,6 +1821,10 @@ const I18N = {
   },
 
   ko: {
+    "meta.title": "Kostka Pixel — 사진을 인쇄용 주사위 모자이크로",
+    "meta.description": "Kostka Pixel은 어떤 사진이든 바로 인쇄할 수 있는 주사위 모자이크로 바꿔 주는 앱입니다. 사진을 고르고 주사위 크기를 정한 뒤 1:1 비율 PDF 설명서를 내보내 진짜 주사위로 작품을 만들어 보세요 — 인터넷 없이도 됩니다.",
+    "support.meta.title": "지원 — Kostka Pixel",
+    "support.meta.description": "Kostka Pixel 사용에 도움이 필요하신가요? 버그 신고, 기능 제안, 질문을 보내 주시면 답변드릴게요.",
     "nav.how": "사용 방법",
     "nav.build": "받는 것",
     "nav.features": "기능",
@@ -1889,6 +1949,10 @@ const I18N = {
   },
 
   vi: {
+    "meta.title": "Kostka Pixel — biến ảnh thành tranh ghép xúc xắc để in",
+    "meta.description": "Kostka Pixel là ứng dụng biến bất kỳ bức ảnh nào thành tranh ghép xúc xắc sẵn sàng để in. Chọn ảnh, đặt kích thước xúc xắc, xuất hướng dẫn PDF tỉ lệ 1:1 và tạo tác phẩm bằng xúc xắc thật — không cần internet.",
+    "support.meta.title": "Hỗ trợ — Kostka Pixel",
+    "support.meta.description": "Cần trợ giúp với Kostka Pixel? Hãy báo lỗi, đề xuất tính năng hoặc đặt câu hỏi — chúng tôi sẽ trả lời.",
     "nav.how": "Cách hoạt động",
     "nav.build": "Bạn nhận được gì",
     "nav.features": "Tính năng",
@@ -2013,6 +2077,10 @@ const I18N = {
   },
 
   tr: {
+    "meta.title": "Kostka Pixel — fotoğraflarını yazdırılabilir zar mozaiklerine dönüştür",
+    "meta.description": "Kostka Pixel, her fotoğrafı yazdırmaya hazır bir zar mozaiğine dönüştüren bir uygulamadır. Bir fotoğraf seç, zar boyutunu ayarla, 1:1 ölçekli PDF talimatını dışa aktar ve gerçek zarlarla sanat eseri oluştur — internet gerekmez.",
+    "support.meta.title": "Destek — Kostka Pixel",
+    "support.meta.description": "Kostka Pixel ile ilgili yardıma mı ihtiyacın var? Hata bildir, özellik öner ya da soru sor — sana dönüş yapacağız.",
     "nav.how": "Nasıl çalışır",
     "nav.build": "Ne elde edersiniz",
     "nav.features": "Özellikler",
@@ -2137,6 +2205,10 @@ const I18N = {
   },
 
   bn: {
+    "meta.title": "Kostka Pixel — আপনার ছবিকে প্রিন্টযোগ্য ছক্কা মোজাইকে বদলে দিন",
+    "meta.description": "Kostka Pixel এমন একটি অ্যাপ যা যেকোনো ছবিকে প্রিন্টের জন্য প্রস্তুত ছক্কা মোজাইকে বদলে দেয়। ছবি বেছে নিন, ছক্কার আকার ঠিক করুন, ১:১ মাপের PDF নির্দেশিকা এক্সপোর্ট করুন এবং আসল ছক্কা দিয়ে শিল্পকর্ম বানান — ইন্টারনেট ছাড়াই।",
+    "support.meta.title": "সহায়তা — Kostka Pixel",
+    "support.meta.description": "Kostka Pixel নিয়ে সাহায্য দরকার? ত্রুটি জানান, ফিচারের প্রস্তাব দিন বা প্রশ্ন করুন — আমরা উত্তর দেব।",
     "nav.how": "যেভাবে কাজ করে",
     "nav.build": "আপনি যা পাবেন",
     "nav.features": "বৈশিষ্ট্য",
@@ -2261,6 +2333,10 @@ const I18N = {
   },
 
   ar: {
+    "meta.title": "Kostka Pixel — حوّل صورك إلى فسيفساء من النرد جاهزة للطباعة",
+    "meta.description": "Kostka Pixel تطبيق يحوّل أي صورة إلى فسيفساء من النرد جاهزة للطباعة. اختر صورة، واضبط حجم النرد، وصدّر تعليمات PDF بمقياس 1:1، واصنع عملًا فنيًا حقيقيًا من النرد — دون إنترنت.",
+    "support.meta.title": "الدعم — Kostka Pixel",
+    "support.meta.description": "تحتاج مساعدة في Kostka Pixel؟ أبلغ عن خطأ أو اقترح ميزة أو اطرح سؤالًا — وسنرد عليك.",
     "nav.how": "كيف يعمل",
     "nav.build": "ما الذي تحصل عليه",
     "nav.features": "المزايا",
@@ -2385,6 +2461,10 @@ const I18N = {
   },
 
   ur: {
+    "meta.title": "Kostka Pixel — اپنی تصاویر کو پرنٹ کے قابل پاسوں کے موزیک میں بدلیں",
+    "meta.description": "Kostka Pixel ایک ایپ ہے جو کسی بھی تصویر کو پرنٹ کے لیے تیار پاسوں کے موزیک میں بدل دیتی ہے۔ تصویر منتخب کریں، پاسوں کا سائز طے کریں، 1:1 پیمانے کی PDF ہدایات ایکسپورٹ کریں اور اصلی پاسوں سے فن پارہ بنائیں — انٹرنیٹ کے بغیر۔",
+    "support.meta.title": "مدد — Kostka Pixel",
+    "support.meta.description": "Kostka Pixel کے ساتھ مدد چاہیے؟ خرابی کی رپورٹ کریں، فیچر تجویز کریں یا سوال پوچھیں — ہم جواب دیں گے۔",
     "nav.how": "یہ کیسے کام کرتا ہے",
     "nav.build": "آپ کو کیا ملتا ہے",
     "nav.features": "خصوصیات",
@@ -2509,6 +2589,10 @@ const I18N = {
   },
 
   fa: {
+    "meta.title": "Kostka Pixel — عکس‌هایتان را به موزاییک تاس قابل چاپ تبدیل کنید",
+    "meta.description": "Kostka Pixel برنامه‌ای است که هر عکسی را به موزاییک تاس آمادهٔ چاپ تبدیل می‌کند. عکس را انتخاب کنید، اندازهٔ تاس را تنظیم کنید، راهنمای PDF با مقیاس ۱:۱ بگیرید و با تاس واقعی اثر هنری بسازید — بدون اینترنت.",
+    "support.meta.title": "پشتیبانی — Kostka Pixel",
+    "support.meta.description": "در Kostka Pixel به کمک نیاز دارید؟ خطا را گزارش کنید، ویژگی پیشنهاد دهید یا سؤال بپرسید — پاسخ می‌دهیم.",
     "nav.how": "چگونه کار می‌کند",
     "nav.build": "چه چیزی دریافت می‌کنید",
     "nav.features": "ویژگی‌ها",
@@ -2722,6 +2806,25 @@ function applyLang(lang) {
   });
 }
 
+/* Static per-language pages (/pl/, /de/, ...) are generated by tools/build-i18n.mjs.
+   On those pages the language picker navigates to the matching URL. */
+const STATIC_LANG = document.documentElement.getAttribute("data-static-lang");
+
+function langUrl(lang) {
+  const page = document.documentElement.getAttribute("data-page") || "index.html";
+  return "/" + (lang === "en" ? "" : lang + "/") + (page === "index.html" ? "" : page);
+}
+
+function chooseLang(lang) {
+  if (!SUPPORTED.includes(lang)) lang = "en";
+  if (STATIC_LANG && lang !== STATIC_LANG) {
+    try { localStorage.setItem("dd_lang", lang); } catch (e) {}
+    window.location.href = langUrl(lang) + window.location.hash;
+    return;
+  }
+  applyLang(lang);
+}
+
 function buildLangSelectors() {
   document.querySelectorAll(".lang-select").forEach((sel) => {
     if (sel.dataset.built === "1") return;
@@ -2732,16 +2835,29 @@ function buildLangSelectors() {
       sel.appendChild(opt);
     });
     sel.dataset.built = "1";
-    sel.addEventListener("change", () => applyLang(sel.value));
+    sel.addEventListener("change", () => chooseLang(sel.value));
   });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   buildLangSelectors();
-  applyLang(detectInitialLang());
+  if (STATIC_LANG) {
+    // The English home page is the x-default: send first-time visitors to
+    // their own language (or the one they picked before).
+    if (document.documentElement.hasAttribute("data-x-default")) {
+      const want = detectInitialLang();
+      if (want !== STATIC_LANG) {
+        window.location.replace(langUrl(want) + window.location.hash);
+        return;
+      }
+    }
+    applyLang(STATIC_LANG);
+  } else {
+    applyLang(detectInitialLang());
+  }
 
   document.querySelectorAll(".lang-toggle button").forEach((btn) => {
-    btn.addEventListener("click", () => applyLang(btn.getAttribute("data-set-lang")));
+    btn.addEventListener("click", () => chooseLang(btn.getAttribute("data-set-lang")));
   });
 
   // mobile nav

@@ -1,0 +1,132 @@
+{
+  "site": "https://kostkapixel.com",
+  "defaultLang": "en",
+  "dictionary": {
+    "file": "assets/js/i18n.js",
+    "expression": "I18N",
+    "mode": "text"
+  },
+  "languages": [
+    {
+      "code": "en",
+      "dir": "ltr",
+      "locale": "en_US"
+    },
+    {
+      "code": "pl",
+      "dir": "ltr",
+      "locale": "pl_PL"
+    },
+    {
+      "code": "es",
+      "dir": "ltr",
+      "locale": "es_ES"
+    },
+    {
+      "code": "fr",
+      "dir": "ltr",
+      "locale": "fr_FR"
+    },
+    {
+      "code": "de",
+      "dir": "ltr",
+      "locale": "de_DE"
+    },
+    {
+      "code": "it",
+      "dir": "ltr",
+      "locale": "it_IT"
+    },
+    {
+      "code": "pt",
+      "dir": "ltr",
+      "locale": "pt_BR"
+    },
+    {
+      "code": "ru",
+      "dir": "ltr",
+      "locale": "ru_RU"
+    },
+    {
+      "code": "nl",
+      "dir": "ltr",
+      "locale": "nl_NL"
+    },
+    {
+      "code": "sv",
+      "dir": "ltr",
+      "locale": "sv_SE"
+    },
+    {
+      "code": "zh",
+      "dir": "ltr",
+      "locale": "zh_CN"
+    },
+    {
+      "code": "hi",
+      "dir": "ltr",
+      "locale": "hi_IN"
+    },
+    {
+      "code": "id",
+      "dir": "ltr",
+      "locale": "id_ID"
+    },
+    {
+      "code": "ja",
+      "dir": "ltr",
+      "locale": "ja_JP"
+    },
+    {
+      "code": "ko",
+      "dir": "ltr",
+      "locale": "ko_KR"
+    },
+    {
+      "code": "vi",
+      "dir": "ltr",
+      "locale": "vi_VN"
+    },
+    {
+      "code": "tr",
+      "dir": "ltr",
+      "locale": "tr_TR"
+    },
+    {
+      "code": "bn",
+      "dir": "ltr",
+      "locale": "bn_BD"
+    },
+    {
+      "code": "ar",
+      "dir": "rtl",
+      "locale": "ar_AR"
+    },
+    {
+      "code": "ur",
+      "dir": "rtl",
+      "locale": "ur_PK"
+    },
+    {
+      "code": "fa",
+      "dir": "rtl",
+      "locale": "fa_IR"
+    }
+  ],
+  "pages": [
+    {
+      "file": "index.html",
+      "titleKey": "meta.title",
+      "descKey": "meta.description"
+    },
+    {
+      "file": "support.html",
+      "titleKey": "support.meta.title",
+      "descKey": "support.meta.description"
+    }
+  ],
+  "extraSitemapPages": [
+    "privacy.html",
+    "terms.html"
+  ]
+}
