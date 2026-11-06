@@ -881,3 +881,11 @@ textarea.form-control {
 @media (max-width: 640px) {
   .nav-download { display: none; }
 }
+
+/* mobile: compact download band so the App Store badge is visible at once */
+@media (max-width: 640px) {
+  .cta-band { padding: 30px 18px; border-radius: 22px; }
+  .cta-band h2 { font-size: 1.35rem; line-height: 1.3; margin-bottom: 8px; }
+  .cta-band p { font-size: .95rem; line-height: 1.5; margin-bottom: 18px; }
+  .hero .store-row { margin-top: 22px; }
+}
