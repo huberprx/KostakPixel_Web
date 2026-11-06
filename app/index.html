@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, follow" />
+  <title>Kostka Pixel — download</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #f7efe0; color: #211d16; text-align: center; }
+    a { color: inherit; }
+    p { margin: 0 24px; font-size: 1.05rem; }
+  </style>
+  <script src="../assets/js/store.js"></script>
+</head>
+<body>
+  <!-- QR code target: sends iPhone/iPad to the App Store, Android to Google Play
+       (once APP_LINKS.googlePlay is filled in), everything else to the website. -->
+  <p><a id="fallback" href="../#download">Kostka Pixel</a></p>
+  <script>
+    (function () {
+      var L = window.APP_LINKS || {};
+      var ua = navigator.userAgent || "";
+      var isIOS = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      var isAndroid = /Android/i.test(ua);
+      var target = "../#download";
+      if (isIOS && L.appStore) target = L.appStore;
+      else if (isAndroid && L.googlePlay) target = L.googlePlay;
+      document.getElementById("fallback").href = target;
+      window.location.replace(target);
+    })();
+  </script>
+</body>
+</html>

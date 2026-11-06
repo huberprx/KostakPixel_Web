@@ -106,5 +106,5 @@ Landing page for Dice & Dots app, including legal documents required by Apple Ap
 
 ## App Store Links (placeholder — update when published)
 
-- Apple App Store: `https://apps.apple.com/app/dice-and-dots/id__________`
+- Apple App Store: `https://apps.apple.com/app/id6777076502` (all store links live in `assets/js/store.js`)
 - Google Play: (TBD)
