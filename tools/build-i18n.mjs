@@ -108,6 +108,9 @@ function render(page, lang) {
     }
   });
 
+  // Google "preferred source" button speaks the page language (fallback en)
+  $("[google-add-preferred-source-btn]").attr("data-lang", L.googleLang || "en");
+
   // head
   const title = t(lang, page.titleKey), desc = t(lang, page.descKey);
   if (title) { $("title").text(title); $('meta[property="og:title"]').attr("content", title); }

@@ -10,107 +10,128 @@
     {
       "code": "en",
       "dir": "ltr",
-      "locale": "en_US"
+      "locale": "en_US",
+      "googleLang": "en"
     },
     {
       "code": "pl",
       "dir": "ltr",
-      "locale": "pl_PL"
+      "locale": "pl_PL",
+      "googleLang": "pl"
     },
     {
       "code": "es",
       "dir": "ltr",
-      "locale": "es_ES"
+      "locale": "es_ES",
+      "googleLang": "es"
     },
     {
       "code": "fr",
       "dir": "ltr",
-      "locale": "fr_FR"
+      "locale": "fr_FR",
+      "googleLang": "fr"
     },
     {
       "code": "de",
       "dir": "ltr",
-      "locale": "de_DE"
+      "locale": "de_DE",
+      "googleLang": "de"
     },
     {
       "code": "it",
       "dir": "ltr",
-      "locale": "it_IT"
+      "locale": "it_IT",
+      "googleLang": "it"
     },
     {
       "code": "pt",
       "dir": "ltr",
-      "locale": "pt_BR"
+      "locale": "pt_BR",
+      "googleLang": "pt-BR"
     },
     {
       "code": "ru",
       "dir": "ltr",
-      "locale": "ru_RU"
+      "locale": "ru_RU",
+      "googleLang": "ru"
     },
     {
       "code": "nl",
       "dir": "ltr",
-      "locale": "nl_NL"
+      "locale": "nl_NL",
+      "googleLang": "nl"
     },
     {
       "code": "sv",
       "dir": "ltr",
-      "locale": "sv_SE"
+      "locale": "sv_SE",
+      "googleLang": "sv"
     },
     {
       "code": "zh",
       "dir": "ltr",
-      "locale": "zh_CN"
+      "locale": "zh_CN",
+      "googleLang": "zh-CN"
     },
     {
       "code": "hi",
       "dir": "ltr",
-      "locale": "hi_IN"
+      "locale": "hi_IN",
+      "googleLang": "hi"
     },
     {
       "code": "id",
       "dir": "ltr",
-      "locale": "id_ID"
+      "locale": "id_ID",
+      "googleLang": "id"
     },
     {
       "code": "ja",
       "dir": "ltr",
-      "locale": "ja_JP"
+      "locale": "ja_JP",
+      "googleLang": "ja"
     },
     {
       "code": "ko",
       "dir": "ltr",
-      "locale": "ko_KR"
+      "locale": "ko_KR",
+      "googleLang": "ko"
     },
     {
       "code": "vi",
       "dir": "ltr",
-      "locale": "vi_VN"
+      "locale": "vi_VN",
+      "googleLang": "vi"
     },
     {
       "code": "tr",
       "dir": "ltr",
-      "locale": "tr_TR"
+      "locale": "tr_TR",
+      "googleLang": "tr"
     },
     {
       "code": "bn",
       "dir": "ltr",
-      "locale": "bn_BD"
+      "locale": "bn_BD",
+      "googleLang": "bn"
     },
     {
       "code": "ar",
       "dir": "rtl",
-      "locale": "ar_AR"
+      "locale": "ar_AR",
+      "googleLang": "ar"
     },
     {
       "code": "ur",
       "dir": "rtl",
-      "locale": "ur_PK"
+      "locale": "ur_PK",
+      "googleLang": "ur"
     },
     {
       "code": "fa",
       "dir": "rtl",
-      "locale": "fa_IR"
+      "locale": "fa_IR",
+      "googleLang": "en"
     }
   ],
   "pages": [
